@@ -1,0 +1,789 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.1
+2 info using node@v20.19.5
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install npm install
+7 verbose argv "install" "npm" "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2025-09-29T20_09_05_837Z-
+9 verbose logfile /home/container/.npm/_logs/2025-09-29T20_09_05_837Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest install@^0.13.0
+15 silly packumentCache full:https://registry.npmjs.org/install cache-miss
+16 http cache https://registry.npmjs.org/install 10ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/install set size:110214 disposed:false
+18 silly fetch manifest npm@^11.6.1
+19 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+20 http cache https://registry.npmjs.org/npm 34ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/npm set size:23299714 disposed:false
+22 silly placeDep ROOT install@0.13.0 REPLACE for: bot-whatsapp@1.0.0 want: ^0.13.0
+23 silly placeDep ROOT npm@11.6.1 REPLACE for: bot-whatsapp@1.0.0 want: ^11.6.1
+24 silly fetch manifest libsignal@git+https://github.com/whiskeysockets/libsignal-node
+25 silly placeDep node_modules/@whiskeysockets/baileys libsignal@2.0.1 REPLACE for: @whiskeysockets/baileys@6.7.19 want: git+https://github.com/whiskeysockets/libsignal-node
+26 silly fetch manifest @img/sharp-darwin-arm64@0.34.4
+27 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 cache-miss
+28 http cache https://registry.npmjs.org/@img%2fsharp-darwin-arm64 3ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 set size:58537 disposed:false
+30 silly fetch manifest @img/sharp-darwin-x64@0.34.4
+31 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 cache-miss
+32 http cache https://registry.npmjs.org/@img%2fsharp-darwin-x64 3ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 set size:57736 disposed:false
+34 silly fetch manifest @img/sharp-libvips-darwin-arm64@1.2.3
+35 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 cache-miss
+36 http cache https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 2ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 set size:48626 disposed:false
+38 silly fetch manifest @img/sharp-libvips-darwin-x64@1.2.3
+39 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 cache-miss
+40 http cache https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 1ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 set size:48115 disposed:false
+42 silly fetch manifest @img/sharp-libvips-linux-arm@1.2.3
+43 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm cache-miss
+44 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm 2ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm set size:54624 disposed:false
+46 silly fetch manifest @img/sharp-libvips-linux-arm64@1.2.3
+47 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 cache-miss
+48 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 2ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 set size:51425 disposed:false
+50 silly fetch manifest @img/sharp-libvips-linux-ppc64@1.2.3
+51 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 cache-miss
+52 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 1ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 set size:38656 disposed:false
+54 silly fetch manifest @img/sharp-libvips-linux-s390x@1.2.3
+55 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x cache-miss
+56 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x 2ms (cache hit)
+57 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x set size:47646 disposed:false
+58 silly fetch manifest @img/sharp-libvips-linuxmusl-arm64@1.2.3
+59 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 cache-miss
+60 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 1ms (cache hit)
+61 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 set size:50148 disposed:false
+62 silly fetch manifest @img/sharp-libvips-linuxmusl-x64@1.2.3
+63 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 cache-miss
+64 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 2ms (cache hit)
+65 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 set size:49600 disposed:false
+66 silly fetch manifest @img/sharp-linux-arm@0.34.4
+67 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm cache-miss
+68 http cache https://registry.npmjs.org/@img%2fsharp-linux-arm 1ms (cache hit)
+69 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm set size:58964 disposed:false
+70 silly fetch manifest @img/sharp-linux-arm64@0.34.4
+71 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 cache-miss
+72 http cache https://registry.npmjs.org/@img%2fsharp-linux-arm64 1ms (cache hit)
+73 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 set size:59459 disposed:false
+74 silly fetch manifest @img/sharp-linux-ppc64@0.34.4
+75 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 cache-miss
+76 http cache https://registry.npmjs.org/@img%2fsharp-linux-ppc64 2ms (cache hit)
+77 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 set size:24177 disposed:false
+78 silly fetch manifest @img/sharp-linux-s390x@0.34.4
+79 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x cache-miss
+80 http cache https://registry.npmjs.org/@img%2fsharp-linux-s390x 1ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x set size:57438 disposed:false
+82 silly fetch manifest @img/sharp-linuxmusl-arm64@0.34.4
+83 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 cache-miss
+84 http cache https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 2ms (cache hit)
+85 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 set size:60420 disposed:false
+86 silly fetch manifest @img/sharp-linuxmusl-x64@0.34.4
+87 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 cache-miss
+88 http cache https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 1ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 set size:59619 disposed:false
+90 silly fetch manifest @img/sharp-wasm32@0.34.4
+91 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+92 http cache https://registry.npmjs.org/@img%2fsharp-wasm32 2ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:56841 disposed:false
+94 silly fetch manifest @img/sharp-win32-arm64@0.34.4
+95 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 cache-miss
+96 http cache https://registry.npmjs.org/@img%2fsharp-win32-arm64 2ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 set size:20688 disposed:false
+98 silly fetch manifest @img/sharp-win32-ia32@0.34.4
+99 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 cache-miss
+100 http cache https://registry.npmjs.org/@img%2fsharp-win32-ia32 1ms (cache hit)
+101 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 set size:61776 disposed:false
+102 silly fetch manifest @img/sharp-win32-x64@0.34.4
+103 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 cache-miss
+104 http cache https://registry.npmjs.org/@img%2fsharp-win32-x64 2ms (cache hit)
+105 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 set size:61227 disposed:false
+106 silly placeDep node_modules/sharp @img/sharp-darwin-arm64@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+107 silly placeDep node_modules/sharp @img/sharp-darwin-x64@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+108 silly placeDep node_modules/sharp @img/sharp-libvips-darwin-arm64@1.2.3 OK for: sharp@0.34.4 want: 1.2.3
+109 silly placeDep node_modules/sharp @img/sharp-libvips-darwin-x64@1.2.3 OK for: sharp@0.34.4 want: 1.2.3
+110 silly placeDep node_modules/sharp @img/sharp-libvips-linux-arm@1.2.3 OK for: sharp@0.34.4 want: 1.2.3
+111 silly placeDep node_modules/sharp @img/sharp-libvips-linux-arm64@1.2.3 OK for: sharp@0.34.4 want: 1.2.3
+112 silly placeDep node_modules/sharp @img/sharp-libvips-linux-ppc64@1.2.3 OK for: sharp@0.34.4 want: 1.2.3
+113 silly placeDep node_modules/sharp @img/sharp-libvips-linux-s390x@1.2.3 OK for: sharp@0.34.4 want: 1.2.3
+114 silly placeDep node_modules/sharp @img/sharp-libvips-linuxmusl-arm64@1.2.3 OK for: sharp@0.34.4 want: 1.2.3
+115 silly placeDep node_modules/sharp @img/sharp-libvips-linuxmusl-x64@1.2.3 OK for: sharp@0.34.4 want: 1.2.3
+116 silly placeDep node_modules/sharp @img/sharp-linux-arm@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+117 silly placeDep node_modules/sharp @img/sharp-linux-arm64@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+118 silly placeDep node_modules/sharp @img/sharp-linux-ppc64@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+119 silly placeDep node_modules/sharp @img/sharp-linux-s390x@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+120 silly placeDep node_modules/sharp @img/sharp-linuxmusl-arm64@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+121 silly placeDep node_modules/sharp @img/sharp-linuxmusl-x64@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+122 silly placeDep node_modules/sharp @img/sharp-wasm32@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+123 silly placeDep node_modules/sharp @img/sharp-win32-arm64@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+124 silly placeDep node_modules/sharp @img/sharp-win32-ia32@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+125 silly placeDep node_modules/sharp @img/sharp-win32-x64@0.34.4 OK for: sharp@0.34.4 want: 0.34.4
+126 silly reify mark retired [ '/home/container/node_modules/@img/sharp-darwin-arm64' ]
+127 silly reify mark retired [ '/home/container/node_modules/@img/sharp-darwin-x64' ]
+128 silly reify mark retired [ '/home/container/node_modules/@img/sharp-libvips-darwin-arm64' ]
+129 silly reify mark retired [ '/home/container/node_modules/@img/sharp-libvips-darwin-x64' ]
+130 silly reify mark retired [ '/home/container/node_modules/@img/sharp-libvips-linux-arm' ]
+131 silly reify mark retired [ '/home/container/node_modules/@img/sharp-libvips-linux-arm64' ]
+132 silly reify mark retired [ '/home/container/node_modules/@img/sharp-libvips-linux-ppc64' ]
+133 silly reify mark retired [ '/home/container/node_modules/@img/sharp-libvips-linux-s390x' ]
+134 silly reify mark retired [ '/home/container/node_modules/@img/sharp-libvips-linuxmusl-arm64' ]
+135 silly reify mark retired [ '/home/container/node_modules/@img/sharp-libvips-linuxmusl-x64' ]
+136 silly reify mark retired [ '/home/container/node_modules/@img/sharp-linux-arm' ]
+137 silly reify mark retired [ '/home/container/node_modules/@img/sharp-linux-arm64' ]
+138 silly reify mark retired [ '/home/container/node_modules/@img/sharp-linux-ppc64' ]
+139 silly reify mark retired [ '/home/container/node_modules/@img/sharp-linux-s390x' ]
+140 silly reify mark retired [ '/home/container/node_modules/@img/sharp-linuxmusl-arm64' ]
+141 silly reify mark retired [ '/home/container/node_modules/@img/sharp-linuxmusl-x64' ]
+142 silly reify mark retired [ '/home/container/node_modules/@img/sharp-wasm32' ]
+143 silly reify mark retired [ '/home/container/node_modules/@img/sharp-win32-arm64' ]
+144 silly reify mark retired [ '/home/container/node_modules/@img/sharp-win32-ia32' ]
+145 silly reify mark retired [ '/home/container/node_modules/@img/sharp-win32-x64' ]
+146 silly reify mark retired [ '/home/container/node_modules/install' ]
+147 silly reify mark retired [
+147 silly reify   '/home/container/node_modules/npm',
+147 silly reify   '/home/container/node_modules/.bin/npm',
+147 silly reify   '/home/container/node_modules/.bin/npx'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/home/container/node_modules/@whiskeysockets/baileys/node_modules/libsignal'
+148 silly reify ]
+149 silly reify moves {
+149 silly reify   '/home/container/node_modules/@img/sharp-darwin-arm64': '/home/container/node_modules/@img/.sharp-darwin-arm64-zeHFfXlj',
+149 silly reify   '/home/container/node_modules/@img/sharp-darwin-x64': '/home/container/node_modules/@img/.sharp-darwin-x64-8hm08O7r',
+149 silly reify   '/home/container/node_modules/@img/sharp-libvips-darwin-arm64': '/home/container/node_modules/@img/.sharp-libvips-darwin-arm64-ryG47OId',
+149 silly reify   '/home/container/node_modules/@img/sharp-libvips-darwin-x64': '/home/container/node_modules/@img/.sharp-libvips-darwin-x64-J9gy2gU3',
+149 silly reify   '/home/container/node_modules/@img/sharp-libvips-linux-arm': '/home/container/node_modules/@img/.sharp-libvips-linux-arm-bxxkG3VF',
+149 silly reify   '/home/container/node_modules/@img/sharp-libvips-linux-arm64': '/home/container/node_modules/@img/.sharp-libvips-linux-arm64-3zhaiBeg',
+149 silly reify   '/home/container/node_modules/@img/sharp-libvips-linux-ppc64': '/home/container/node_modules/@img/.sharp-libvips-linux-ppc64-33bUc3rW',
+149 silly reify   '/home/container/node_modules/@img/sharp-libvips-linux-s390x': '/home/container/node_modules/@img/.sharp-libvips-linux-s390x-25HCjsOf',
+149 silly reify   '/home/container/node_modules/@img/sharp-libvips-linuxmusl-arm64': '/home/container/node_modules/@img/.sharp-libvips-linuxmusl-arm64-FjjDwWrB',
+149 silly reify   '/home/container/node_modules/@img/sharp-libvips-linuxmusl-x64': '/home/container/node_modules/@img/.sharp-libvips-linuxmusl-x64-ajVHlI3w',
+149 silly reify   '/home/container/node_modules/@img/sharp-linux-arm': '/home/container/node_modules/@img/.sharp-linux-arm-Eg4eDBtq',
+149 silly reify   '/home/container/node_modules/@img/sharp-linux-arm64': '/home/container/node_modules/@img/.sharp-linux-arm64-uzjFvaVS',
+149 silly reify   '/home/container/node_modules/@img/sharp-linux-ppc64': '/home/container/node_modules/@img/.sharp-linux-ppc64-kxMdFJqR',
+149 silly reify   '/home/container/node_modules/@img/sharp-linux-s390x': '/home/container/node_modules/@img/.sharp-linux-s390x-nmiCbti9',
+149 silly reify   '/home/container/node_modules/@img/sharp-linuxmusl-arm64': '/home/container/node_modules/@img/.sharp-linuxmusl-arm64-P10LnYoc',
+149 silly reify   '/home/container/node_modules/@img/sharp-linuxmusl-x64': '/home/container/node_modules/@img/.sharp-linuxmusl-x64-0ySYoYUO',
+149 silly reify   '/home/container/node_modules/@img/sharp-wasm32': '/home/container/node_modules/@img/.sharp-wasm32-tCkvo6Ns',
+149 silly reify   '/home/container/node_modules/@img/sharp-win32-arm64': '/home/container/node_modules/@img/.sharp-win32-arm64-anz613za',
+149 silly reify   '/home/container/node_modules/@img/sharp-win32-ia32': '/home/container/node_modules/@img/.sharp-win32-ia32-gaKvZbF8',
+149 silly reify   '/home/container/node_modules/@img/sharp-win32-x64': '/home/container/node_modules/@img/.sharp-win32-x64-A51pXf5b',
+149 silly reify   '/home/container/node_modules/install': '/home/container/node_modules/.install-0Rn4vHJK',
+149 silly reify   '/home/container/node_modules/npm': '/home/container/node_modules/.npm-Sz5LTEhi',
+149 silly reify   '/home/container/node_modules/.bin/npm': '/home/container/node_modules/.bin/.npm-YzZZ778Y',
+149 silly reify   '/home/container/node_modules/.bin/npx': '/home/container/node_modules/.bin/.npx-TGVrU6y2',
+149 silly reify   '/home/container/node_modules/@whiskeysockets/baileys/node_modules/libsignal': '/home/container/node_modules/@whiskeysockets/baileys/node_modules/.libsignal-pv8Frvzb'
+149 silly reify }
+150 http cache npm@https://registry.npmjs.org/npm/-/npm-11.6.1.tgz 0ms (cache hit)
+151 silly audit bulk request {
+151 silly audit   'abort-controller': [ '3.0.0' ],
+151 silly audit   'agent-base': [ '7.1.4' ],
+151 silly audit   'ansi-regex': [ '5.0.1', '6.2.2' ],
+151 silly audit   'ansi-styles': [ '4.3.0', '6.2.3' ],
+151 silly audit   argparse: [ '2.0.1' ],
+151 silly audit   'ast-types': [ '0.13.4' ],
+151 silly audit   'async-mutex': [ '0.5.0' ],
+151 silly audit   asynckit: [ '0.4.0' ],
+151 silly audit   'atomic-sleep': [ '1.0.0' ],
+151 silly audit   'aws-ssl-profiles': [ '1.1.2' ],
+151 silly audit   axios: [ '1.12.2' ],
+151 silly audit   b4a: [ '1.7.3' ],
+151 silly audit   'bare-events': [ '2.7.0' ],
+151 silly audit   'base64-js': [ '1.5.1' ],
+151 silly audit   'basic-ftp': [ '5.0.5' ],
+151 silly audit   boolbase: [ '1.0.0' ],
+151 silly audit   buffer: [ '6.0.3', '5.7.1' ],
+151 silly audit   'buffer-crc32': [ '0.2.13' ],
+151 silly audit   cacheable: [ '2.0.2' ],
+151 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+151 silly audit   callsites: [ '3.1.0' ],
+151 silly audit   cheerio: [ '1.0.0-rc.11' ],
+151 silly audit   'cheerio-select': [ '2.1.0' ],
+151 silly audit   'chromium-bidi': [ '0.5.8' ],
+151 silly audit   cliui: [ '8.0.1' ],
+151 silly audit   'color-convert': [ '2.0.1' ],
+151 silly audit   'color-name': [ '1.1.4' ],
+151 silly audit   colorette: [ '2.0.20' ],
+151 silly audit   'combined-stream': [ '1.0.8' ],
+151 silly audit   'content-type': [ '1.0.5' ],
+151 silly audit   cosmiconfig: [ '9.0.0' ],
+151 silly audit   'cross-fetch': [ '4.0.0' ],
+151 silly audit   'css-select': [ '5.2.2' ],
+151 silly audit   'css-what': [ '6.2.2' ],
+151 silly audit   'curve25519-js': [ '0.0.4' ],
+151 silly audit   'data-uri-to-buffer': [ '6.0.2' ],
+151 silly audit   dateformat: [ '4.6.3' ],
+151 silly audit   debug: [ '4.4.3', '4.3.4' ],
+151 silly audit   degenerator: [ '5.0.1' ],
+151 silly audit   'delayed-stream': [ '1.0.0' ],
+151 silly audit   denque: [ '2.1.0' ],
+151 silly audit   'detect-libc': [ '2.1.1' ],
+151 silly audit   'devtools-protocol': [ '0.0.1232444' ],
+151 silly audit   'dom-serializer': [ '2.0.0' ],
+151 silly audit   domelementtype: [ '2.3.0' ],
+151 silly audit   domhandler: [ '5.0.3' ],
+151 silly audit   domutils: [ '3.2.2' ],
+151 silly audit   dotenv: [ '16.6.1' ],
+151 silly audit   'dunder-proto': [ '1.0.1' ],
+151 silly audit   'emoji-regex': [ '8.0.0', '9.2.2' ],
+151 silly audit   'end-of-stream': [ '1.4.5' ],
+151 silly audit   entities: [ '4.5.0', '6.0.1' ],
+151 silly audit   'env-paths': [ '2.2.1' ],
+151 silly audit   'error-ex': [ '1.3.4' ],
+151 silly audit   'es-define-property': [ '1.0.1' ],
+151 silly audit   'es-errors': [ '1.3.0' ],
+151 silly audit   'es-object-atoms': [ '1.1.1' ],
+151 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+151 silly audit   escalade: [ '3.2.0' ],
+151 silly audit   escodegen: [ '2.1.0' ],
+151 silly audit   esprima: [ '4.0.1' ],
+151 silly audit   estraverse: [ '5.3.0' ],
+151 silly audit   esutils: [ '2.0.3' ],
+151 silly audit   'event-target-shim': [ '5.0.1' ],
+151 silly audit   events: [ '3.3.0' ],
+151 silly audit   'events-universal': [ '1.0.1' ],
+151 silly audit   'extract-zip': [ '2.0.1' ],
+151 silly audit   'fast-copy': [ '3.0.2' ],
+151 silly audit   'fast-fifo': [ '1.3.2' ],
+151 silly audit   'fast-redact': [ '3.5.0' ],
+151 silly audit   'fast-safe-stringify': [ '2.1.1' ],
+151 silly audit   'fd-slicer': [ '1.1.0' ],
+151 silly audit   fflate: [ '0.8.2' ],
+151 silly audit   'file-type': [ '21.0.0' ],
+151 silly audit   'follow-redirects': [ '1.15.11' ],
+151 silly audit   'form-data': [ '4.0.4' ],
+151 silly audit   'function-bind': [ '1.1.2' ],
+151 silly audit   'generate-function': [ '2.3.1' ],
+151 silly audit   'get-caller-file': [ '2.0.5' ],
+151 silly audit   'get-intrinsic': [ '1.3.0' ],
+151 silly audit   'get-proto': [ '1.0.1' ],
+151 silly audit   'get-stream': [ '5.2.0' ],
+151 silly audit   'get-uri': [ '6.0.5' ],
+151 silly audit   gopd: [ '1.2.0' ],
+151 silly audit   'has-symbols': [ '1.1.0' ],
+151 silly audit   'has-tostringtag': [ '1.0.2' ],
+151 silly audit   hasown: [ '2.0.2' ],
+151 silly audit   'help-me': [ '5.0.0' ],
+151 silly audit   hookified: [ '1.12.1' ],
+151 silly audit   htmlparser2: [ '8.0.2' ],
+151 silly audit   'http-proxy-agent': [ '7.0.2' ],
+151 silly audit   'https-proxy-agent': [ '7.0.6' ],
+151 silly audit   'iconv-lite': [ '0.7.0', '0.6.3' ],
+151 silly audit   ieee754: [ '1.2.1' ],
+151 silly audit   'import-fresh': [ '3.3.1' ],
+151 silly audit   'ip-address': [ '10.0.1' ],
+151 silly audit   'is-arrayish': [ '0.2.1' ],
+151 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+151 silly audit   'is-property': [ '1.0.2' ],
+151 silly audit   joycon: [ '3.1.1' ],
+151 silly audit   'js-tokens': [ '4.0.0' ],
+151 silly audit   'js-yaml': [ '4.1.0' ],
+151 silly audit   'json-parse-even-better-errors': [ '2.3.1', '4.0.0' ],
+151 silly audit   keyv: [ '5.5.3' ],
+151 silly audit   libsignal: [ '2.0.1' ],
+151 silly audit   long: [ '4.0.0', '5.3.2' ],
+151 silly audit   protobufjs: [ '6.8.8', '7.5.4' ],
+151 silly audit   '@types/node': [ '10.17.60', '24.6.0' ],
+151 silly audit   'lines-and-columns': [ '1.2.4' ],
+151 silly audit   'link-preview-js': [ '3.1.0' ],
+151 silly audit   'lru-cache': [ '7.18.3', '11.2.1', '10.4.3' ],
+151 silly audit   'lru.min': [ '1.1.2' ],
+151 silly audit   'math-intrinsics': [ '1.1.0' ],
+151 silly audit   'media-typer': [ '1.1.0' ],
+151 silly audit   'mime-db': [ '1.52.0' ],
+151 silly audit   'mime-types': [ '2.1.35' ],
+151 silly audit   minimist: [ '1.2.8' ],
+151 silly audit   mitt: [ '3.0.1' ],
+151 silly audit   'mkdirp-classic': [ '0.5.3' ],
+151 silly audit   ms: [ '2.1.3', '2.1.2' ],
+151 silly audit   'music-metadata': [ '11.9.0' ],
+151 silly audit   mysql2: [ '3.15.1' ],
+151 silly audit   'named-placeholders': [ '1.1.3' ],
+151 silly audit   netmask: [ '2.0.2' ],
+151 silly audit   'node-cron': [ '4.2.1' ],
+151 silly audit   'node-fetch': [ '2.7.0' ],
+151 silly audit   'qrcode-terminal': [ '0.12.0' ],
+151 silly audit   'safer-buffer': [ '2.1.2' ],
+151 silly audit   semver: [ '7.7.2' ],
+151 silly audit   'smart-buffer': [ '4.2.0' ],
+151 silly audit   socks: [ '2.8.7' ],
+151 silly audit   'socks-proxy-agent': [ '8.0.5' ],
+151 silly audit   'string-width': [ '4.2.3', '5.1.2' ],
+151 silly audit   'strip-ansi': [ '6.0.1', '7.1.2' ],
+151 silly audit   'wrap-ansi': [ '7.0.0', '8.1.0' ],
+151 silly audit   'nth-check': [ '2.1.1' ],
+151 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+151 silly audit   once: [ '1.4.0' ],
+151 silly audit   openai: [ '5.23.1' ],
+151 silly audit   'pac-proxy-agent': [ '7.2.0' ],
+151 silly audit   'pac-resolver': [ '7.0.1' ],
+151 silly audit   'parent-module': [ '1.0.1' ],
+151 silly audit   'parse-json': [ '5.2.0' ],
+151 silly audit   parse5: [ '7.3.0' ],
+151 silly audit   'parse5-htmlparser2-tree-adapter': [ '7.1.0' ],
+151 silly audit   pend: [ '1.2.0' ],
+151 silly audit   picocolors: [ '1.1.1' ],
+151 silly audit   pino: [ '8.21.0', '9.12.0' ],
+151 silly audit   'pino-abstract-transport': [ '1.2.0', '2.0.0' ],
+151 silly audit   'pino-pretty': [ '13.1.1' ],
+151 silly audit   'sonic-boom': [ '4.2.0', '3.8.1' ],
+151 silly audit   'pino-std-serializers': [ '6.2.2', '7.0.0' ],
+151 silly audit   process: [ '0.11.10' ],
+151 silly audit   'process-warning': [ '3.0.0', '5.0.0' ],
+151 silly audit   progress: [ '2.0.3' ],
+151 silly audit   'proxy-agent': [ '6.3.1' ],
+151 silly audit   'proxy-from-env': [ '1.1.0' ],
+151 silly audit   pump: [ '3.0.3' ],
+151 silly audit   punycode: [ '1.3.2' ],
+151 silly audit   puppeteer: [ '21.11.0' ],
+151 silly audit   'puppeteer-core': [ '21.11.0' ],
+151 silly audit   ws: [ '8.16.0', '8.18.3' ],
+151 silly audit   querystring: [ '0.2.0' ],
+151 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+151 silly audit   'readable-stream': [ '4.7.0' ],
+151 silly audit   'real-require': [ '0.2.0' ],
+151 silly audit   'require-directory': [ '2.1.1' ],
+151 silly audit   'resolve-from': [ '4.0.0' ],
+151 silly audit   'safe-buffer': [ '5.2.1' ],
+151 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+151 silly audit   'secure-json-parse': [ '4.0.0' ],
+151 silly audit   'seq-queue': [ '0.0.5' ],
+151 silly audit   sharp: [ '0.34.4' ],
+151 silly audit   'slow-redact': [ '0.3.0' ],
+151 silly audit   'source-map': [ '0.6.1' ],
+151 silly audit   split2: [ '4.2.0' ],
+151 silly audit   sqlstring: [ '2.3.3' ],
+151 silly audit   streamx: [ '2.23.0' ],
+151 silly audit   string_decoder: [ '1.3.0' ],
+151 silly audit   'strip-json-comments': [ '5.0.3' ],
+151 silly audit   strtok3: [ '10.3.4' ],
+151 silly audit   'tar-fs': [ '3.0.4' ],
+151 silly audit   'tar-stream': [ '3.1.7' ],
+151 silly audit   'text-decoder': [ '1.2.3' ],
+151 silly audit   'thread-stream': [ '2.7.0', '3.1.0' ],
+151 silly audit   through: [ '2.3.8' ],
+151 silly audit   'token-types': [ '6.1.1' ],
+151 silly audit   '@borewit/text-codec': [ '0.1.1', '0.2.0' ],
+151 silly audit   tr46: [ '0.0.3' ],
+151 silly audit   tslib: [ '2.8.1' ],
+151 silly audit   'uint8array-extras': [ '1.5.0' ],
+151 silly audit   'unbzip2-stream': [ '1.4.3' ],
+151 silly audit   'undici-types': [ '7.13.0' ],
+151 silly audit   url: [ '0.11.0' ],
+151 silly audit   'urlpattern-polyfill': [ '10.0.0' ],
+151 silly audit   'webidl-conversions': [ '3.0.1' ],
+151 silly audit   'whatwg-url': [ '5.0.0' ],
+151 silly audit   wrappy: [ '1.0.2' ],
+151 silly audit   y18n: [ '5.0.8' ],
+151 silly audit   yargs: [ '17.7.2' ],
+151 silly audit   'yargs-parser': [ '21.1.1' ],
+151 silly audit   yauzl: [ '2.10.0' ],
+151 silly audit   zod: [ '3.25.76' ],
+151 silly audit   '@babel/code-frame': [ '7.27.1' ],
+151 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ],
+151 silly audit   '@cacheable/memoize': [ '2.0.2' ],
+151 silly audit   '@cacheable/memory': [ '2.0.2' ],
+151 silly audit   '@cacheable/node-cache': [ '1.7.2' ],
+151 silly audit   '@cacheable/utils': [ '2.0.2' ],
+151 silly audit   '@emnapi/runtime': [ '1.5.0' ],
+151 silly audit   '@hapi/boom': [ '9.1.4' ],
+151 silly audit   '@hapi/hoek': [ '9.3.0' ],
+151 silly audit   '@img/colour': [ '1.0.0' ],
+151 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.3' ],
+151 silly audit   '@img/sharp-linux-x64': [ '0.34.4' ],
+151 silly audit   '@keyv/bigmap': [ '1.0.2' ],
+151 silly audit   '@keyv/serialize': [ '1.1.1' ],
+151 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+151 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+151 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+151 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+151 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+151 silly audit   '@protobufjs/float': [ '1.0.2' ],
+151 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+151 silly audit   '@protobufjs/path': [ '1.1.2' ],
+151 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+151 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+151 silly audit   '@puppeteer/browsers': [ '1.9.1' ],
+151 silly audit   '@tokenizer/inflate': [ '0.2.7' ],
+151 silly audit   '@tokenizer/token': [ '0.3.0' ],
+151 silly audit   '@tootallnate/quickjs-emscripten': [ '0.23.0' ],
+151 silly audit   '@types/long': [ '4.0.2' ],
+151 silly audit   '@types/yauzl': [ '2.10.3' ],
+151 silly audit   '@whiskeysockets/baileys': [ '6.7.19' ],
+151 silly audit   install: [ '0.13.0' ],
+151 silly audit   cacache: [ '20.0.1', '19.0.1' ],
+151 silly audit   isexe: [ '2.0.0', '3.1.1' ],
+151 silly audit   which: [ '2.0.2', '5.0.0' ],
+151 silly audit   glob: [ '11.0.3', '10.4.5' ],
+151 silly audit   jackspeak: [ '4.1.1', '3.4.3' ],
+151 silly audit   'make-fetch-happen': [ '15.0.2', '14.0.3' ],
+151 silly audit   minimatch: [ '10.0.3', '9.0.5' ],
+151 silly audit   minipass: [ '7.1.2', '3.3.6' ],
+151 silly audit   'path-scurry': [ '1.11.1', '2.0.0' ],
+151 silly audit   '@npmcli/agent': [ '3.0.0', '4.0.0' ],
+151 silly audit   'spdx-expression-parse': [ '3.0.1', '4.0.0' ],
+151 silly audit   yallist: [ '5.0.0', '4.0.0' ],
+151 silly audit   '@whiskeysockets/libsignal-node': [ '2.0.1' ],
+151 silly audit   '@img/sharp-darwin-arm64': [ '0.34.4' ],
+151 silly audit   '@img/sharp-darwin-x64': [ '0.34.4' ],
+151 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.3' ],
+151 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.3' ],
+151 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.3' ],
+151 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.3' ],
+151 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.3' ],
+151 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.3' ],
+151 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.3' ],
+151 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.3' ],
+151 silly audit   '@img/sharp-linux-arm': [ '0.34.4' ],
+151 silly audit   '@img/sharp-linux-arm64': [ '0.34.4' ],
+151 silly audit   '@img/sharp-linux-ppc64': [ '0.34.4' ],
+151 silly audit   '@img/sharp-linux-s390x': [ '0.34.4' ],
+151 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.4' ],
+151 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.4' ],
+151 silly audit   '@img/sharp-wasm32': [ '0.34.4' ],
+151 silly audit   '@img/sharp-win32-arm64': [ '0.34.4' ],
+151 silly audit   '@img/sharp-win32-ia32': [ '0.34.4' ],
+151 silly audit   '@img/sharp-win32-x64': [ '0.34.4' ],
+151 silly audit   npm: [ '11.6.1' ],
+151 silly audit   abbrev: [ '3.0.1' ],
+151 silly audit   aproba: [ '2.1.0' ],
+151 silly audit   archy: [ '1.0.0' ],
+151 silly audit   'balanced-match': [ '1.0.2' ],
+151 silly audit   'bin-links': [ '5.0.0' ],
+151 silly audit   'binary-extensions': [ '3.1.0' ],
+151 silly audit   'brace-expansion': [ '2.0.2' ],
+151 silly audit   chalk: [ '5.6.2' ],
+151 silly audit   chownr: [ '3.0.0' ],
+151 silly audit   'ci-info': [ '4.3.0' ],
+151 silly audit   'cidr-regex': [ '5.0.0' ],
+151 silly audit   'cli-columns': [ '4.0.0' ],
+151 silly audit   'cmd-shim': [ '7.0.0' ],
+151 silly audit   'common-ancestor-path': [ '1.0.1' ],
+151 silly audit   'cross-spawn': [ '7.0.6' ],
+151 silly audit   cssesc: [ '3.0.0' ],
+151 silly audit   diff: [ '8.0.2' ],
+151 silly audit   eastasianwidth: [ '0.2.0' ],
+151 silly audit   encoding: [ '0.1.13' ],
+151 silly audit   'err-code': [ '2.0.3' ],
+151 silly audit   'exponential-backoff': [ '3.1.2' ],
+151 silly audit   'fastest-levenshtein': [ '1.0.16' ],
+151 silly audit   'foreground-child': [ '3.3.1' ],
+151 silly audit   'fs-minipass': [ '3.0.3' ],
+151 silly audit   'graceful-fs': [ '4.2.11' ],
+151 silly audit   'hosted-git-info': [ '9.0.0' ],
+151 silly audit   'http-cache-semantics': [ '4.2.0' ],
+151 silly audit   'ignore-walk': [ '8.0.0' ],
+151 silly audit   imurmurhash: [ '0.1.4' ],
+151 silly audit   ini: [ '5.0.0' ],
+151 silly audit   'init-package-json': [ '8.2.2' ],
+151 silly audit   'ip-regex': [ '5.0.0' ],
+151 silly audit   'is-cidr': [ '6.0.0' ],
+151 silly audit   'json-stringify-nice': [ '1.1.4' ],
+151 silly audit   jsonparse: [ '1.3.1' ],
+151 silly audit   'just-diff': [ '6.0.2' ],
+151 silly audit   'just-diff-apply': [ '5.5.0' ],
+151 silly audit   libnpmaccess: [ '10.0.2' ],
+151 silly audit   libnpmdiff: [ '8.0.8' ],
+151 silly audit   libnpmexec: [ '10.1.7' ],
+151 silly audit   libnpmfund: [ '7.0.8' ],
+151 silly audit   libnpmorg: [ '8.0.1' ],
+151 silly audit   libnpmpack: [ '9.0.8' ],
+151 silly audit   libnpmpublish: [ '11.1.1' ],
+151 silly audit   libnpmsearch: [ '9.0.1' ],
+151 silly audit   libnpmteam: [ '8.0.2' ],
+151 silly audit   libnpmversion: [ '8.0.2' ],
+151 silly audit   'minipass-collect': [ '2.0.1' ],
+151 silly audit   'minipass-fetch': [ '4.0.1' ],
+151 silly audit   'minipass-flush': [ '1.0.5' ],
+151 silly audit   'minipass-pipeline': [ '1.2.4' ],
+151 silly audit   'minipass-sized': [ '1.0.3' ],
+151 silly audit   minizlib: [ '3.1.0' ],
+151 silly audit   'mute-stream': [ '2.0.0' ],
+151 silly audit   negotiator: [ '1.0.0' ],
+151 silly audit   'node-gyp': [ '11.4.2' ],
+151 silly audit   nopt: [ '8.1.0' ],
+151 silly audit   'normalize-package-data': [ '8.0.0' ],
+151 silly audit   'npm-audit-report': [ '6.0.0' ],
+151 silly audit   'npm-bundled': [ '4.0.0' ],
+151 silly audit   'npm-install-checks': [ '7.1.2' ],
+151 silly audit   'npm-normalize-package-bin': [ '4.0.0' ],
+151 silly audit   'npm-package-arg': [ '13.0.0' ],
+151 silly audit   'npm-packlist': [ '10.0.1' ],
+151 silly audit   'npm-pick-manifest': [ '11.0.1' ],
+151 silly audit   'npm-profile': [ '12.0.0' ],
+151 silly audit   'npm-registry-fetch': [ '19.0.0' ],
+151 silly audit   'npm-user-validate': [ '3.0.0' ],
+151 silly audit   'p-map': [ '7.0.3' ],
+151 silly audit   'package-json-from-dist': [ '1.0.1' ],
+151 silly audit   pacote: [ '21.0.3' ],
+151 silly audit   'parse-conflict-json': [ '4.0.0' ],
+151 silly audit   'path-key': [ '3.1.1' ],
+151 silly audit   'postcss-selector-parser': [ '7.1.0' ],
+151 silly audit   'proc-log': [ '5.0.0' ],
+151 silly audit   proggy: [ '3.0.0' ],
+151 silly audit   'promise-all-reject-late': [ '1.0.1' ],
+151 silly audit   'promise-call-limit': [ '3.0.2' ],
+151 silly audit   'promise-retry': [ '2.0.1' ],
+151 silly audit   promzard: [ '2.0.0' ],
+151 silly audit   read: [ '4.1.0' ],
+151 silly audit   'read-cmd-shim': [ '5.0.0' ],
+151 silly audit   retry: [ '0.12.0' ],
+151 silly audit   'shebang-command': [ '2.0.0' ],
+151 silly audit   'shebang-regex': [ '3.0.0' ],
+151 silly audit   'signal-exit': [ '4.1.0' ],
+151 silly audit   sigstore: [ '4.0.0' ],
+151 silly audit   'spdx-correct': [ '3.2.0' ],
+151 silly audit   'spdx-exceptions': [ '2.5.0' ],
+151 silly audit   'spdx-license-ids': [ '3.0.22' ],
+151 silly audit   ssri: [ '12.0.0' ],
+151 silly audit   'supports-color': [ '10.2.2' ],
+151 silly audit   tar: [ '7.5.1' ],
+151 silly audit   'text-table': [ '0.2.0' ],
+151 silly audit   'tiny-relative-date': [ '2.0.2' ],
+151 silly audit   tinyglobby: [ '0.2.15' ],
+151 silly audit   fdir: [ '6.5.0' ],
+151 silly audit   picomatch: [ '4.0.3' ],
+151 silly audit   treeverse: [ '3.0.0' ],
+151 silly audit   'tuf-js': [ '4.0.0' ],
+151 silly audit   'unique-filename': [ '4.0.0' ],
+151 silly audit   'unique-slug': [ '5.0.0' ],
+151 silly audit   'util-deprecate': [ '1.0.2' ],
+151 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+151 silly audit   'validate-npm-package-name': [ '6.0.2' ],
+151 silly audit   'walk-up-path': [ '4.0.0' ],
+151 silly audit   'write-file-atomic': [ '6.0.0' ],
+151 silly audit   '@isaacs/balanced-match': [ '4.0.1' ],
+151 silly audit   '@isaacs/brace-expansion': [ '5.0.0' ],
+151 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+151 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+151 silly audit   '@isaacs/string-locale-compare': [ '1.1.0' ],
+151 silly audit   '@npmcli/arborist': [ '9.1.5' ],
+151 silly audit   '@npmcli/config': [ '10.4.1' ],
+151 silly audit   '@npmcli/fs': [ '4.0.0' ],
+151 silly audit   '@npmcli/git': [ '7.0.0' ],
+151 silly audit   '@npmcli/installed-package-contents': [ '3.0.0' ],
+151 silly audit   '@npmcli/map-workspaces': [ '5.0.0' ],
+151 silly audit   '@npmcli/metavuln-calculator': [ '9.0.2' ],
+151 silly audit   '@npmcli/name-from-folder': [ '3.0.0' ],
+151 silly audit   '@npmcli/node-gyp': [ '4.0.0' ],
+151 silly audit   '@npmcli/package-json': [ '7.0.1' ],
+151 silly audit   '@npmcli/promise-spawn': [ '8.0.3' ],
+151 silly audit   '@npmcli/query': [ '4.0.1' ],
+151 silly audit   '@npmcli/redact': [ '3.2.2' ],
+151 silly audit   '@npmcli/run-script': [ '10.0.0' ],
+151 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+151 silly audit   '@sigstore/bundle': [ '4.0.0' ],
+151 silly audit   '@sigstore/core': [ '3.0.0' ],
+151 silly audit   '@sigstore/protobuf-specs': [ '0.5.0' ],
+151 silly audit   '@sigstore/sign': [ '4.0.0' ],
+151 silly audit   '@sigstore/tuf': [ '4.0.0' ],
+151 silly audit   '@sigstore/verify': [ '3.0.0' ],
+151 silly audit   '@tufjs/canonical-json': [ '2.0.0' ],
+151 silly audit   '@tufjs/models': [ '4.0.0' ]
+151 silly audit }
+152 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-win32-x64
+153 silly reify mark deleted [
+153 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-win32-x64'
+153 silly reify ]
+154 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-win32-ia32
+155 silly reify mark deleted [
+155 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-win32-ia32'
+155 silly reify ]
+156 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-win32-arm64
+157 silly reify mark deleted [
+157 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-win32-arm64'
+157 silly reify ]
+158 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-wasm32
+159 silly reify mark deleted [ '/home/container/node_modules/sharp/node_modules/@img/sharp-wasm32' ]
+160 verbose reify failed optional dependency /home/container/node_modules/@emnapi/runtime
+161 silly reify mark deleted [ '/home/container/node_modules/@emnapi/runtime' ]
+162 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-linuxmusl-x64
+163 silly reify mark deleted [
+163 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-linuxmusl-x64'
+163 silly reify ]
+164 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-linuxmusl-arm64
+165 silly reify mark deleted [
+165 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-linuxmusl-arm64'
+165 silly reify ]
+166 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-linux-s390x
+167 silly reify mark deleted [
+167 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-linux-s390x'
+167 silly reify ]
+168 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-linux-ppc64
+169 silly reify mark deleted [
+169 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-linux-ppc64'
+169 silly reify ]
+170 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-linux-arm64
+171 silly reify mark deleted [
+171 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-linux-arm64'
+171 silly reify ]
+172 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-linux-arm
+173 silly reify mark deleted [
+173 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-linux-arm'
+173 silly reify ]
+174 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linuxmusl-x64
+175 silly reify mark deleted [
+175 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linuxmusl-x64'
+175 silly reify ]
+176 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linuxmusl-arm64
+177 silly reify mark deleted [
+177 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+177 silly reify ]
+178 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linux-s390x
+179 silly reify mark deleted [
+179 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linux-s390x'
+179 silly reify ]
+180 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linux-ppc64
+181 silly reify mark deleted [
+181 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linux-ppc64'
+181 silly reify ]
+182 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linux-arm64
+183 silly reify mark deleted [
+183 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linux-arm64'
+183 silly reify ]
+184 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linux-arm
+185 silly reify mark deleted [
+185 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-libvips-linux-arm'
+185 silly reify ]
+186 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-libvips-darwin-x64
+187 silly reify mark deleted [
+187 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-libvips-darwin-x64'
+187 silly reify ]
+188 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-libvips-darwin-arm64
+189 silly reify mark deleted [
+189 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-libvips-darwin-arm64'
+189 silly reify ]
+190 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-darwin-x64
+191 silly reify mark deleted [
+191 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-darwin-x64'
+191 silly reify ]
+192 verbose reify failed optional dependency /home/container/node_modules/sharp/node_modules/@img/sharp-darwin-arm64
+193 silly reify mark deleted [
+193 silly reify   '/home/container/node_modules/sharp/node_modules/@img/sharp-darwin-arm64'
+193 silly reify ]
+194 http cache install@https://registry.npmjs.org/install/-/install-0.13.0.tgz 0ms (cache hit)
+195 silly packumentCache corgi:https://registry.npmjs.org/protobufjs cache-miss
+196 http fetch GET 200 https://registry.npmjs.org/protobufjs 55ms (cache miss)
+197 silly packumentCache corgi:https://registry.npmjs.org/protobufjs set size:undefined disposed:false
+198 http cache https://registry.npmjs.org/protobufjs/-/protobufjs-6.8.8.tgz 19ms (cache hit)
+199 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 181ms
+200 silly audit report {
+200 silly audit report   ws: [
+200 silly audit report     {
+200 silly audit report       id: 1098392,
+200 silly audit report       url: 'https://github.com/advisories/GHSA-3h5v-q93c-6h6q',
+200 silly audit report       title: 'ws affected by a DoS when handling a request with many HTTP headers',
+200 silly audit report       severity: 'high',
+200 silly audit report       vulnerable_versions: '>=8.0.0 <8.17.1',
+200 silly audit report       cwe: [Array],
+200 silly audit report       cvss: [Object]
+200 silly audit report     }
+200 silly audit report   ],
+200 silly audit report   'tar-fs': [
+200 silly audit report     {
+200 silly audit report       id: 1104676,
+200 silly audit report       url: 'https://github.com/advisories/GHSA-pq67-2wwv-3xjx',
+200 silly audit report       title: 'tar-fs Vulnerable to Link Following and Path Traversal via Extracting a Crafted tar File',
+200 silly audit report       severity: 'high',
+200 silly audit report       vulnerable_versions: '>=3.0.0 <3.0.7',
+200 silly audit report       cwe: [Array],
+200 silly audit report       cvss: [Object]
+200 silly audit report     },
+200 silly audit report     {
+200 silly audit report       id: 1106929,
+200 silly audit report       url: 'https://github.com/advisories/GHSA-8cj5-5rvv-wf4v',
+200 silly audit report       title: 'tar-fs can extract outside the specified dir with a specific tarball',
+200 silly audit report       severity: 'high',
+200 silly audit report       vulnerable_versions: '>=3.0.0 <3.0.9',
+200 silly audit report       cwe: [Array],
+200 silly audit report       cvss: [Object]
+200 silly audit report     }
+200 silly audit report   ]
+200 silly audit report }
+201 silly packumentCache corgi:https://registry.npmjs.org/ws cache-miss
+202 silly packumentCache corgi:https://registry.npmjs.org/tar-fs cache-miss
+203 http cache https://registry.npmjs.org/tar-fs 4ms (cache hit)
+204 silly packumentCache corgi:https://registry.npmjs.org/tar-fs set size:54422 disposed:false
+205 http cache https://registry.npmjs.org/ws 7ms (cache hit)
+206 silly packumentCache corgi:https://registry.npmjs.org/ws set size:193390 disposed:false
+207 silly packumentCache corgi:https://registry.npmjs.org/puppeteer-core cache-miss
+208 http cache https://registry.npmjs.org/puppeteer-core 5ms (cache hit)
+209 silly packumentCache corgi:https://registry.npmjs.org/puppeteer-core set size:499722 disposed:false
+210 silly packumentCache corgi:https://registry.npmjs.org/@puppeteer%2fbrowsers cache-miss
+211 http cache https://registry.npmjs.org/@puppeteer%2fbrowsers 3ms (cache hit)
+212 silly packumentCache corgi:https://registry.npmjs.org/@puppeteer%2fbrowsers set size:75379 disposed:false
+213 silly packumentCache corgi:https://registry.npmjs.org/puppeteer cache-miss
+214 http cache https://registry.npmjs.org/puppeteer 5ms (cache hit)
+215 silly packumentCache corgi:https://registry.npmjs.org/puppeteer set size:1720715 disposed:false
+216 http fetch GET 200 https://codeload.github.com/whiskeysockets/libsignal-node/tar.gz/e81ecfc32eb74951d789ab37f7e341ab66d5fff1 285ms (cache revalidated)
+217 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+218 info run protobufjs@6.8.8 postinstall node_modules/@whiskeysockets/baileys/node_modules/libsignal/node_modules/protobufjs node scripts/postinstall
+219 info run protobufjs@6.8.8 postinstall { code: 0, signal: null }
+220 silly CHANGE node_modules/@whiskeysockets/baileys/node_modules/libsignal
+221 silly CHANGE node_modules/@whiskeysockets/baileys/node_modules/libsignal/node_modules/protobufjs
+222 silly ADD node_modules/sharp/node_modules/@img/sharp-win32-x64
+223 silly ADD node_modules/sharp/node_modules/@img/sharp-win32-ia32
+224 silly ADD node_modules/sharp/node_modules/@img/sharp-win32-arm64
+225 silly ADD node_modules/sharp/node_modules/@img/sharp-wasm32
+226 silly ADD node_modules/sharp/node_modules/@img/sharp-linuxmusl-x64
+227 silly ADD node_modules/sharp/node_modules/@img/sharp-linuxmusl-arm64
+228 silly ADD node_modules/sharp/node_modules/@img/sharp-linux-s390x
+229 silly ADD node_modules/sharp/node_modules/@img/sharp-linux-ppc64
+230 silly ADD node_modules/sharp/node_modules/@img/sharp-linux-arm64
+231 silly ADD node_modules/sharp/node_modules/@img/sharp-linux-arm
+232 silly ADD node_modules/sharp/node_modules/@img/sharp-libvips-linuxmusl-x64
+233 silly ADD node_modules/sharp/node_modules/@img/sharp-libvips-linuxmusl-arm64
+234 silly ADD node_modules/sharp/node_modules/@img/sharp-libvips-linux-s390x
+235 silly ADD node_modules/sharp/node_modules/@img/sharp-libvips-linux-ppc64
+236 silly ADD node_modules/sharp/node_modules/@img/sharp-libvips-linux-arm64
+237 silly ADD node_modules/sharp/node_modules/@img/sharp-libvips-linux-arm
+238 silly ADD node_modules/sharp/node_modules/@img/sharp-libvips-darwin-x64
+239 silly ADD node_modules/sharp/node_modules/@img/sharp-libvips-darwin-arm64
+240 silly ADD node_modules/sharp/node_modules/@img/sharp-darwin-x64
+241 silly ADD node_modules/sharp/node_modules/@img/sharp-darwin-arm64
+242 silly CHANGE node_modules/npm
+243 silly CHANGE node_modules/npm/node_modules/@npmcli/installed-package-contents
+244 silly CHANGE node_modules/npm/node_modules/@npmcli/arborist
+245 silly CHANGE node_modules/npm/node_modules/which
+246 silly CHANGE node_modules/npm/node_modules/semver
+247 silly CHANGE node_modules/npm/node_modules/qrcode-terminal
+248 silly CHANGE node_modules/npm/node_modules/pacote
+249 silly CHANGE node_modules/npm/node_modules/nopt
+250 silly CHANGE node_modules/npm/node_modules/node-gyp
+251 silly CHANGE node_modules/npm/node_modules/node-gyp/node_modules/glob
+252 silly CHANGE node_modules/npm/node_modules/glob
+253 silly CHANGE node_modules/npm/node_modules/cssesc
+254 silly CHANGE node_modules/npm/node_modules/cross-spawn/node_modules/which
+255 silly CHANGE node_modules/install
+256 silly REMOVE node_modules/@img/sharp-win32-x64
+257 silly REMOVE node_modules/@img/sharp-win32-ia32
+258 silly REMOVE node_modules/@img/sharp-win32-arm64
+259 silly REMOVE node_modules/@img/sharp-wasm32
+260 silly REMOVE node_modules/@img/sharp-linuxmusl-x64
+261 silly REMOVE node_modules/@img/sharp-linuxmusl-arm64
+262 silly REMOVE node_modules/@img/sharp-linux-s390x
+263 silly REMOVE node_modules/@img/sharp-linux-ppc64
+264 silly REMOVE node_modules/@img/sharp-linux-arm64
+265 silly REMOVE node_modules/@img/sharp-linux-arm
+266 silly REMOVE node_modules/@img/sharp-libvips-linuxmusl-x64
+267 silly REMOVE node_modules/@img/sharp-libvips-linuxmusl-arm64
+268 silly REMOVE node_modules/@img/sharp-libvips-linux-s390x
+269 silly REMOVE node_modules/@img/sharp-libvips-linux-ppc64
+270 silly REMOVE node_modules/@img/sharp-libvips-linux-arm64
+271 silly REMOVE node_modules/@img/sharp-libvips-linux-arm
+272 silly REMOVE node_modules/@img/sharp-libvips-darwin-x64
+273 silly REMOVE node_modules/@img/sharp-libvips-darwin-arm64
+274 silly REMOVE node_modules/@img/sharp-darwin-x64
+275 silly REMOVE node_modules/@img/sharp-darwin-arm64
+276 verbose cwd /home/container
+277 verbose os Linux 6.1.0-13-amd64
+278 verbose node v20.19.5
+279 verbose npm  v11.6.1
+280 verbose exit 0
+281 info ok

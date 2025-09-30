@@ -1,0 +1,24 @@
+'Log files:
+/home/container/.npm/_logs/2025-09-29T20_00_18_569Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @whiskeysockets/baileys@6.7.19
+Found: jimp@0.16.1
+node_modules/jimp
+  jimp@"0.16.1" from the root project
+
+Could not resolve dependency:
+peerOptional jimp@"^1.6.0" from @whiskeysockets/baileys@6.7.19
+node_modules/@whiskeysockets/baileys
+  @whiskeysockets/baileys@"^6.7.18" from the root project
+
+Conflicting peer dependency: jimp@1.6.0
+node_modules/jimp
+  peerOptional jimp@"^1.6.0" from @whiskeysockets/baileys@6.7.19
+  node_modules/@whiskeysockets/baileys
+    @whiskeysockets/baileys@"^6.7.18" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

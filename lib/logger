@@ -1,0 +1,45 @@
+// lib/logger.js
+const pino = require('pino');
+
+const LEVEL = process.env.LOG_LEVEL || 'info';
+const isDev = process.env.NODE_ENV === 'development';
+const PRETTY =
+  /^true$/i.test(process.env.LOG_PRETTY || '') || isDev;
+
+// Transporte "bonito" solo en consola
+const transport = PRETTY
+  ? pino.transport({
+      target: 'pino-pretty',
+      options: {
+        colorize: true,
+        translateTime: "SYS:yyyy-mm-dd HH:MM:ss.l 'GMT'Z",
+        ignore: 'pid,hostname',
+        levelFirst: false,
+        singleLine: false,
+        messageKey: 'msg',
+      },
+    })
+  : undefined;
+
+// Nota: base: undefined para no imprimir pid/hostname
+const logger = pino(
+  {
+    level: LEVEL,
+    base: undefined,
+    // Opcional: formatear el nivel a algo más corto
+    formatters: {
+      level(label) {
+        // Deja el label tal cual (info, warn, error…)
+        return { level: label };
+      },
+    },
+  },
+  transport
+);
+
+// Pequeña utilidad para loggear errores con stack limpio
+logger.catch = (err, msg = 'Error') => {
+  logger.error({ err: { message: err.message, stack: err.stack } }, msg);
+};
+
+module.exports = logger;
