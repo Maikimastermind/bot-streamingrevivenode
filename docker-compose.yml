@@ -12,5 +12,4 @@ services:
       - .:/app
     working_dir: /app
     command: node index.js
-    env_file:
-      - .env
+
