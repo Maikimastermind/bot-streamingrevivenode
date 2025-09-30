@@ -42,13 +42,14 @@ RUN apt-get update && apt-get install -y \
     lsb-release \
     wget \
     xdg-utils \
-    --no-install-recommends
+    --no-install-recommends && \
+    rm -rf /var/lib/apt/lists/*
 
-# 4. Copiar archivos necesarios
+# 4. Copiar primero solo los package.json
 COPY package*.json ./
 
-# 5. Instalar dependencias de Node.js
-RUN npm install
+# 5. Instalar dependencias de Node.js (incluye dotenv)
+RUN npm install --production
 
 # 6. Copiar el resto del proyecto
 COPY . .
